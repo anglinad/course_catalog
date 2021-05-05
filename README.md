@@ -17,6 +17,10 @@ $ python manage.py makemigrations
 ```sh
 $ python manage.py migrate
 ```
+### Create a superuser
+```sh
+$ python manage.py createsuperuser
+```
 ### Run server
 ```sh
 $ ./manage.py runserver
